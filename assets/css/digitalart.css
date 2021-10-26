@@ -3163,15 +3163,22 @@ input, select, textarea {
         
 /* Main */
 .container2{
-    width: 90%;
+width: 90%;
+margin:auto;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-column-start: auto;
+grid-gap: 20px;
+padding: 1px
+}
 
-    margin:auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-start: auto;
-    grid-gap: 20px;
-    padding: 1px
-
+@media (max-width:600px){
+	.container2 {
+	display: grid;
+	grid-gap: 100px;
+	grid-template-columns: 1fr;
+	} 
+   }
 }
 .gallery{
     position: relative;
