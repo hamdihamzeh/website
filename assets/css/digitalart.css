@@ -2,9 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 
 /*
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
 html, body, div, span, applet, object,
@@ -3148,7 +3145,7 @@ input, select, textarea {
 			opacity: 1;
 		}
         .title {
-           padding-left: 850px;   
+           padding-left: 50px;   
            display: flex;
         }
         .subtitle > h2 {
