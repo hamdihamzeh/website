@@ -231,15 +231,7 @@ input, select, textarea {
 			}
 
 		}
-
-		@media screen and (max-width: 360px) {
-
-			h1 {
-				font-size: 1.75em;
-			}
-
-		}
-		@media screen and (max-width: 736px) {
+	@media screen and (max-width: 600px) {
 
 			h1 {
 				font-size: 2em;
@@ -248,7 +240,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 360px) {
+		@media screen and (max-width: 600px) {
 
 			h1 {
 				font-size: 1.75em;
