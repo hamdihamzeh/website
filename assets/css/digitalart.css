@@ -3207,11 +3207,9 @@ opacity: 1;
 }
 
 
+#footer 
+@media (max-width:500px){
 /* Wrapper */
-
-
-
-
 
         #footer {
          display: flex;
@@ -3219,6 +3217,13 @@ opacity: 1;
          background-color:rgb(241, 241, 241);
          }
     
+		 @media (max-width:600px){
+			.container2 {
+				overflow: hidden;
+				width: 600px;
+			padding-left: 20px;
+			} 
+		   }
         
             
     
