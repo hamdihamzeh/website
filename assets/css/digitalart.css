@@ -3207,26 +3207,24 @@ opacity: 1;
 }
 
 
-#footer 
-@media (max-width:500px){
-/* Wrapper */
 
-        #footer {
-         display: flex;
-         padding: 200px ;
-         background-color:rgb(241, 241, 241);
-         }
-    
-		 @media (max-width:600px){
-			.container2 {
+#footer {
+		display: flex;
+		padding: 200px ;
+		background-color:rgb(241, 241, 241);
+		overflow: hidden;
+		width: 600px;
+	    padding-left: 20px;
+}
+
+		@media (max-width:600px){
+
 				overflow: hidden;
 				width: 600px;
 			padding-left: 20px;
 			} 
 		   }
-        
-            
-    
+
            
     
       
