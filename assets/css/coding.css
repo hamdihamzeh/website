@@ -214,9 +214,11 @@ input, select, textarea {
 			color: inherit;
 		}
 
-	h2 {
-		font-size: 1.1em;
-	}
+    h2 {
+        font-weight: 22220px;
+        padding-left: 120px;
+        font-size: 1.1em;
+    }
 
 	h3 {
 		font-size: 1em;
